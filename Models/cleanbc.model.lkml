@@ -5,6 +5,6 @@ week_start_day: sunday
 fiscal_month_offset: 3
 
 # include all views in this project
-include: "rebate_search_tool.view"
+include: "/Views/rebate_search_tool.view"
 
 explore: rebate_search_tool {}
