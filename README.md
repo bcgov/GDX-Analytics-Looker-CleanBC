@@ -1,20 +1,27 @@
 # GDX-Analytics-Looker-CleanBC
 The GDX Analytics LookML project to support the CleanBC Better Homes Project.
 
-This Block represents an instance of the Government of British Columbia’s Service BC service analytics project. It is based on [Snowplow](https://snowplowanalytics.com/) and [Looker](https://looker.com/).
+## Features
 
+This project includes [Snowplow](https://snowplowanalytics.com/) schemas and [Looker](https://looker.com/) LookML code to support measurement and reporting on how visitors are interacting with the [Better Homes](https://betterhomesbc.ca/) and [Better Buildings](https://betterbuildingsbc.ca/) websites.
+
+## Requirements
+ 
+Requires deployment onto a [Looker](https://looker.com/) instance with access to database tables as referenced by the '*.lkml' files.
+ 
 ## Project Status
-
+ 
 This project is in production and the GDX Analytics Team will continue to update and maintain the project as required.
 
-## Relevant Repositories
-[GDX-Analytics/](https://github.com/bcgov/GDX-Analytics/)
+## Related Repositories
+ 
+### [GDX-Analytics/](https://github.com/bcgov/GDX-Analytics)
 
-Represents an instance of Government of British Columbia’s Snowplow tracking. This includes pushing custom events to the Snowplow Tracker, and generation of cryptographically signed SSO embed URL pointing to a dashboard.
-
-## Getting Help
-
-For any questions regarding this project, please contact the GDX Analytics Team.
+The central repository for work by the GDX Analytics Team.
+ 
+## Getting Help or Reporting an Issue
+ 
+For any questions regarding this project, or for inquiries about starting a new analytics account, please contact the GDX Analytics Team.
 
 ## Contributors
 
