@@ -1,4 +1,4 @@
-include: "date_comparisons_common.view"
+include: "//snowplow_web_block/Includes/date_comparisons_common.view"
 
 view: rebate_search_tool {
   derived_table: {
