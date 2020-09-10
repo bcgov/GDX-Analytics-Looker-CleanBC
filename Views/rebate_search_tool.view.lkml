@@ -20,7 +20,7 @@ view: rebate_search_tool {
   dimension_group: Event {
     type: time
     sql: ${TABLE}.event_time ;;
-    timeframes: [time, minute, minute10, hour, date, week, month, quarter, year, time_of_day, hour_of_day, day_of_week]
+    timeframes: [time, minute, minute10, hour, date, week, month, quarter, year, time_of_day, hour_of_day, day_of_week, day_of_month]
   }
 
   dimension: destination {
