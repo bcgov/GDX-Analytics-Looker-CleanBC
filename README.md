@@ -1,4 +1,6 @@
 # GDX-Analytics-Looker-CleanBC
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](<Redirect-URL>)
+---
 The GDX Analytics LookML project to support the CleanBC Better Homes Project.
 
 ## Features
