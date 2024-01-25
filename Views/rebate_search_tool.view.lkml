@@ -2,7 +2,12 @@ include: "//snowplow_web_block/Includes/date_comparisons_common.view"
 
 view: rebate_search_tool {
   derived_table: {
-    sql: SELECT *, CONVERT_TIMEZONE('UTC', 'America/Vancouver',  root_tstamp) AS event_time FROM atomic.ca_bc_gov_cleanbc_rst_1 ;;
+    sql:
+      SELECT action,  destination,  element_type, filter_values,  heating_type, label,  location, project_type, rebate, CONVERT_TIMEZONE('UTC', 'America/Vancouver',  root_tstamp) AS event_time
+        FROM atomic.ca_bc_gov_cleanbc_rst_1
+      UNION
+      SELECT action,  destination,  element_type, filter_values,  heating_type, label,  location, project_type, rebate, CONVERT_TIMEZONE('UTC', 'America/Vancouver',  root_tstamp) AS event_time
+        FROM atomic.ca_bc_gov_cleanbc_rst_2 ;;
   }
 
   extends: [date_comparisons_common]
