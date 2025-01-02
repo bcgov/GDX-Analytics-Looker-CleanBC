@@ -16,6 +16,9 @@ view: rebate_search_tool {
     sql: ${TABLE}.event_time  ;;
   }
 
+
+  # test 2025-01-02
+
   dimension: action {
     type: string
     sql: ${TABLE}.action ;;
